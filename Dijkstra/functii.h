@@ -2,9 +2,9 @@
 
 struct q{
     int data;
-    int prioritate;
     q *next;
 };
 
-// void put(q *&coada,int data,int prioritate);
-// void get(q *&coada);
+void put(q *&coada,int data);
+void get(q *&coada);
+int front(q *coada);
